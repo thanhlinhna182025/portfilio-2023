@@ -1,7 +1,7 @@
 import { forwardRef } from 'react'
 import { Tooltip } from 'react-tooltip'
-import { EmailIcon, GithubIcon, PhoneIcon } from '~/components/Icon'
 import CV from '~/assets/TRUONG-TUAN-THANH-FRONTEND.pdf'
+import { EmailIcon, GithubIcon, PhoneIcon } from '~/components/Icon'
 const Intro = ({}, ref) => {
   return (
     <div className='mb-10 flex flex-col items-center'>
@@ -34,7 +34,11 @@ const Intro = ({}, ref) => {
           </div>
         </div>
       </div>
-      <a download={true} href={CV} className='w-fit cursor-pointer hover:opacity-90 shadow-sm md:shadow-md lg:shadow-lg border-[1px] border-solid border-[#fff] bg-slate-500 px-5 py-1 text-lg font-bold'>
+      <a
+        download={true}
+        href={CV}
+        className='w-fit cursor-pointer border-[1px] border-solid border-[#fff] bg-slate-500 px-5 py-1 text-lg font-bold shadow-card  hover:text-cyan-500 hover:opacity-90'
+      >
         My CV
       </a>
     </div>
