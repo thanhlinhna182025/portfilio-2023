@@ -37,9 +37,11 @@ const Intro = ({}, ref) => {
       <a
         download={true}
         href={CV}
-        className='w-fit cursor-pointer border-[1px] border-solid border-[#fff] bg-slate-500 px-5 py-1 text-lg font-bold shadow-card  hover:text-cyan-500 hover:opacity-90'
+        className='group flex h-[60px] w-[160px] items-center justify-center rounded-[60px] bg-gradient-to-b from-[#fff] to-[#ddd] shadow-[_0_10px_15px_rgba(0,0,0,0.3)] hover:shadow-[_0_2px_4px_rgba(0,0,0,0.3)]'
       >
-        My CV
+        <span className='group-hover:text-cyan-400 flex h-[90%] w-[90%] items-center justify-center rounded-[60px] bg-gradient-to-t from-[#fff] to-[#ddd] text-2xl font-extrabold text-gray-400'>
+          My CV
+        </span>
       </a>
     </div>
   )
