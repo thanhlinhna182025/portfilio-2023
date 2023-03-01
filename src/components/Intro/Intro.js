@@ -37,9 +37,9 @@ const Intro = ({}, ref) => {
       <a
         download={true}
         href={CV}
-        className='group flex h-[60px] w-[160px] items-center justify-center rounded-[60px] bg-gradient-to-b from-[#fff] to-[#ddd] shadow-[_0_10px_15px_rgba(0,0,0,0.3)] hover:shadow-[_0_2px_4px_rgba(0,0,0,0.3)]'
+        className='group flex h-[40px] w-[120px] items-center justify-center rounded-[60px] bg-gradient-to-b from-[#fff] to-[#ddd] shadow-[_0_10px_15px_rgba(0,0,0,0.3)] hover:shadow-[_0_2px_4px_rgba(0,0,0,0.3)] md:h-[50px] md:w-[140px] lg:h-[60px] lg:w-[170px]'
       >
-        <span className='flex h-[90%] w-[90%] items-center justify-center rounded-[60px] bg-gradient-to-t from-[#fff] to-[#ddd] text-2xl font-extrabold text-gray-400 group-hover:text-cyan-400'>
+        <span className='flex h-[90%] w-[90%] items-center justify-center rounded-[60px] bg-gradient-to-t from-[#fff] to-[#ddd] text-lg md:text-xl lg:text-2xl font-extrabold text-gray-400 group-hover:text-cyan-400'>
           My CV
         </span>
       </a>
