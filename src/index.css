@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+@layer utilities {
+  html {
     scroll-behavior: smooth;
+  }
+  .title_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100px;
+  }
+  .title {
+    position: absolute;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 0.3s;
+  }
+  .title_1 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 0, 0 100%);
+    color: #000000;
+  }
+  .title_2 {
+    clip-path: polygon(0 100%, 50% 0, 100% 100%, 10% 100%, 0 100%);
+  }
+  .title_box:hover .title_1 {
+    transform: translateY(-5px);
+  }
+  .title_box:hover .title_2 {
+    transform: translateY(5px);
+  }
 }
