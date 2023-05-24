@@ -30,6 +30,10 @@ export const dataProject = [
 
 export const dataTech = [
   {
+    name: 'Photoshop',
+    level: 'A'
+  },
+  {
     name: 'HTML',
     level: 'A'
   },
